@@ -180,10 +180,10 @@
     margin-left:-25%;
 }
     nav{
-        display: unset;
+        display: inline-block;
         overflow: hidden;
         white-space: nowrap;
-        position:absolute;
+        position:unset;
         margin-left:40%;
         margin-top:-550px;
         color:white;
