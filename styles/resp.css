@@ -137,7 +137,7 @@
   .main-img > img {
     display: block;
     width: 105%;
-    height: 50%;
+    height: 90%;
     object-fit: cover;
     object-position: center;
   }
@@ -146,10 +146,9 @@
    .text-typing {
     padding:10px 15px;
     background:#f5f5f5;
-    font-size:15px;
+    font-size:20px;
     font-family:monospace;
     border-radius:50px;
-    margin-left: -25%;
     margin-top: -25%;
     word-wrap:break-word;
   }
@@ -177,19 +176,63 @@
   .text-fc {
     font-size: 25px;
     color: white;
-    margin-left:-25%;
+    margin-left:3%;
 }
-    nav{
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        position:unset;
-        margin-left:40%;
-        margin-top:-550px;
-        color:white;
-        font-size:35px;
-        font-weight: 300;
-    }
+nav{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    position:unset;
+    margin-left:0%;
+    margin-top:0px;
+    color:white;
+    font-size:0px;
+    font-weight: 0;
+  }
+
+  nav:first-of-type{
+    animation: showup 15s infinite;
+  }
+
+  nav:last-of-type{
+    width:0px;
+    animation:none;
+  }
+
+nav:last-of-type span{
+    margin-left: -255px;
+    animation:none;
+  }
+
+nav span a{
+  text-decoration: none;
+  color:#F35336;
+}
+
+nav span a:hover{
+  text-decoration: none;
+  color:#C2422B;
+}
+
+   @keyframes showup{
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+   }
+   @keyframes slidein{
+    0% {margin-left: -800px;}
+    20% {margin-left: 170px;}
+    35% {margin-left: 200px;}
+    100% {margin-left: 200px;}
+   }
+   @keyframes reveal{
+    0% {opacity:0; width: 0px;}
+    20% {opacity:1; width: 0px;}
+    30% {width: 955px;}
+    80% {opacity:1;}
+    100% {opacity:0; width: 955px;}
+   }
     
   }
   
