@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    .contenu {
+        display:table;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .block1{
+        width:80%;
+        height:auto;
+        word-wrap:break-word;
+        padding-left:0px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .block2{
+        width:80%;
+        height:auto;
+        word-wrap:break-word;
+        padding-left:0px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .text-r{
+        color:var(--secondary-color);
+        font-size:20px;
+        text-align:left;
+    }
+    
+    .text-l{
+        color:var(--secondary-color);
+        font-size:20px;
+        text-align:left;
+    }
+
+    .titre-r{
+        color:var(--fourth-color);
+        font-size:25px;
+        text-align:left;
+    }
+
+    .titre-l{
+        color:var(--fourth-color);
+        font-size:25px;
+        text-align:left;
+    }
+  }
+  
