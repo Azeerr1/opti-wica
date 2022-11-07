@@ -179,6 +179,17 @@
     color: white;
     margin-left:-25%;
 }
+    nav{
+        display: unset;
+        overflow: hidden;
+        white-space: nowrap;
+        position:absolute;
+        margin-left:40%;
+        margin-top:-550px;
+        color:white;
+        font-size:35px;
+        font-weight: 300;
+    }
     
   }
   
